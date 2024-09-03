@@ -1,0 +1,15 @@
+{
+  "name": "Teratail answer",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "",
+  "action": {
+      "default_title": "Teratail answer",
+      "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "permissions": ["tabs"]
+}
